@@ -1,0 +1,3 @@
+rootProject.name = "Pattern"
+include ':app'
+include ':pattern'
