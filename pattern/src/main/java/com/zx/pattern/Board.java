@@ -34,16 +34,16 @@ public abstract class Board implements Serializable {
         return containerRef.get();
     }
 
-    public void dispatchMessage(int msgType) {
-        dispatchMessage(msgType, null);
-    }
-
-    public void dispatchMessage(int msgType, Object message) {
-        Container container = getContainer();
-        if (container != null) {
-            container.dispatchMessage(msgType, message);
-        }
-    }
+//    public void dispatchMessage(int msgType) {
+//        dispatchMessage(msgType, null);
+//    }
+//
+//    public void dispatchMessage(int msgType, Object message) {
+//        Container container = getContainer();
+//        if (container != null) {
+//            container.dispatchMessage(msgType, message);
+//        }
+//    }
 
     protected void callSetup(ViewGroup root) {
         setup(root);

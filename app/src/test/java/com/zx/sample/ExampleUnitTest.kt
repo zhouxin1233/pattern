@@ -1,4 +1,4 @@
-package com.zx.pattern
+package com.zx.sample
 
 import org.junit.Test
 

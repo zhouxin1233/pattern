@@ -55,10 +55,10 @@ public class Provider implements IProvider {
         }
         return observable;
     }
-
-    public void clearObservable() {
-        observableMap.clear();
-    }
+//
+//    public void clearObservable() {
+//        observableMap.clear();
+//    }
 
     private static class ProviderObservable<M> implements Observable<M> {
         private Set<IObserver<M>> observers = Collections.synchronizedSet(new HashSet<>());
